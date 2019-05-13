@@ -1,0 +1,77 @@
+@import "/colorui/main.wxss";
+@import "/colorui/icon.wxss";
+.container{
+    text-align: center;
+     position:absolute;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+.userinfo-avatar{
+  margin-top: 150rpx;
+  width:500rpx;
+  height:320rpx;
+}
+
+
+/*输入框*/
+.input{
+  width: 560rpx;
+  margin-top:80rpx;
+  margin-left: 80rpx;
+   z-index: 1;
+  position: relative;
+
+}
+
+.input_big{
+  background-color: #fefefe;
+  border-width:4rpx;
+  border-style:solid;
+  border-color:#bfbfbf;
+  border-radius: 20rpx;
+}
+
+.input_number,.input_code{
+  text-align: left;
+  margin-left: 67rpx;
+}
+.input_number{
+  margin-top: 25rpx;
+  
+}
+.input_code{
+  margin-bottom: 90rpx;
+}
+/*下划线*/
+.long{
+  width: 416rpx;
+  height: 3rpx;
+  background-color: #bfbfbf;
+}
+
+/*按钮*/
+.btn-area button{
+   width: 440rpx;
+  color: #ffffff;
+  font-size: 44rpx;
+  background-color: #ea766a;
+
+  z-index: 2;
+  position: relative;
+  top: -50rpx;
+  }
+
+  .foot{
+    width: 573rpx;
+    height: 371rpx;
+    font-size: 30rpx;
+    color: #4d626f;
+    text-align: left;
+    margin-left: 60rpx;
+  }
+.foot_2{
+  text-align: center;
+  margin-top: 70rpx;
+  margin-left: 20rpx;
+}

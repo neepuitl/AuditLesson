@@ -1,0 +1,53 @@
+<!--pages/emptyClass/Eindex/Eindex.wxml-->
+
+<!--选择课节-->
+  <view class="class solid-bottom">
+  <view class="jie1" >
+    <text>1--2节</text>
+      <text class="I">I</text> 
+  </view>
+  <view class="jie2" >
+    <text>3--4节</text>
+      <text class="I">I</text> 
+  </view>
+  <view class="jie1" >
+    <text>5--6节</text>
+      <text class="I">I</text> 
+  </view>
+  <view class="jie1" >
+    <text>7--8节</text>
+      <text class="I">I</text> 
+  </view>
+  <view class="jie1" >
+    <text>9--10节</text>
+      <text class="I">I</text> 
+  </view>
+</view>
+<!--教学楼-->
+<view class="room">
+  <scroll-view  class="listBu" scroll-x="true" scroll-left="20" >
+    <view class="uploadWrap" scroll-x="true" > 
+      <view class="building">
+        <text>第一教学楼 第二教学楼 第三教学楼 第四教学楼 东阶教学楼 东石头楼 西石头楼</text>    
+      </view>
+    </view>
+  </scroll-view>
+</view>
+
+<!--空教室-->
+<view class="floor" id="one">
+  <view class="line_style"></view>
+  <view class="floor_div">
+<view >二东202</view> 
+<view >二西202</view>
+<view >二中520</view>
+<view >制图804</view>
+  </view>
+</view>
+<!--标题栏-->
+<cu-custom bgColor="bg-gradual-red" >
+  <view slot="content">空教室</view>
+</cu-custom>
+
+
+

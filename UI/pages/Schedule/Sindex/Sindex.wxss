@@ -1,0 +1,106 @@
+/* pages/Schedule/Sindex/Sindex.wxss */
+/* pages/basics/home/home.wxss */
+/* pages/index/shiyan.wxss */
+.table {
+  border: 0px solid darkgray;
+}
+/*头部 周一二三四五六日*/
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+   border-bottom: 1rpx solid #eaf4f4;
+}
+/*头部小块*/
+.tlle{
+  width:70rpx;
+  justify-content: flex-start;
+  background:#f4f9f9;
+  color: #364e5c;
+  display: flex;
+  height: 2rem;
+  align-items:center;
+  font-size: 30rpx;
+
+}
+.th {
+  width:98rpx;
+  justify-content: center;
+  background:#f4f9f9;
+  color: #364e5c;
+  display: flex;
+  height: 2rem;
+  align-items:center;
+  font-size: 29rpx;
+}
+/*左侧的周次*/
+.time{
+  display:block;
+  float: left;
+  width: 70rpx;
+  background-color:#f4f9f9;
+  text-align: center;
+}
+.left{
+  height: 100rpx;
+  line-height:100rpx;
+  color: #364e5c;
+  font-size: 35rpx;
+}
+
+/*课程表的一行*/
+.bg-g{
+  height: 200rpx;
+  display: block;
+  width: 100%;
+  justify-content: center;
+  align-items: center; 
+}
+/*课程表的小块*/
+.td {
+  display: block;
+  float: left;
+  width:93rpx;
+  height:190rpx;
+  justify-content: center;
+  text-align: center;
+  font-size: 25rpx;
+  margin: 3rpx;
+  background: #E6F3F9;
+  overflow: hidden; 
+ text-overflow: ellipsis; 
+  border-radius: 10rpx;
+  word-wrap: break-word;
+  padding: 5rpx;
+  color: #a6a6a6;
+   
+}
+.ifon {
+  width: 100%;
+  height: 100%;
+}
+.tdte1 {
+  width: 100%;
+  height: 100%;
+  background: #42ade3;
+  color: #ffffff;
+  border-radius: 10rpx;                                                                                                                                               
+}
+.tdte2 {
+  width: 100%;
+  height: 100%;
+  /*background: greenyellow;*/
+}
+
+.page-top{
+  background: #fff; 
+}
+.img_logo{
+  margin-top: 60rpx;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+

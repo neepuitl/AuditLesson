@@ -1,0 +1,4 @@
+<!--pages/Share/Hindex/Hindex.wxml-->
+<cu-custom bgColor="bg-gradual-orange" >
+  <view slot="content">动态</view>
+</cu-custom>

@@ -1,0 +1,30 @@
+<view class="container">
+  <!-- <view class="page"> -->
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="/images/logo.png"></image>
+  </view>
+  <form bindsubmit="formSubmit">
+    <view class="input">
+      <view class="input_big">
+
+        <view class="input_number">
+          <input type="number" name="studentId"  style="height:103rpx;width:435rpx;font-size:40rpx;" placeholder="学号:" />
+          <view class="long"></view>
+        </view>
+
+        <view class="input_code">
+          <input type="text" name="password" bindfocus="alert" style="height:103rpx;width:435rpx;font-size:40rpx" type="password" placeholder="密码:"/>
+          <view class="long"></view>
+        </view>
+
+      </view>
+    </view>
+
+    <view class="btn-area">
+      <button>登 录</button>
+    </view>
+  </form>
+
+ 
+
+</view>

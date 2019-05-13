@@ -1,0 +1,29 @@
+<cu-custom bgColor="bg-gradual-blue">
+  <view slot="content">课表</view>
+</cu-custom>
+<Schedule wx:if="{{PageCur=='Schedule'}}"></Schedule>
+<emptyClass wx:if="{{PageCur=='emptyClass'}}"></emptyClass>
+<followCourse wx:if="{{PageCur=='followCourse'}}"></followCourse>
+<!--index.wxml-->
+
+<view class="cu-bar tabbar bg-white shadow foot">
+  <view class="action" bindtap="NavChange" data-cur="Schedule">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/basics{{PageCur=='Schedule'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='basics'?'bg-gradual-blue':'text-gray'}}">课表</view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="emptyClass">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/component{{PageCur=='emptyClass'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='component'?'text-green':'text-gray'}}">空教室</view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="followCourse">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/plugin{{PageCur=='followCourse'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='plugin'?'text-green':'text-gray'}}">蹭课</view>
+  </view>
+ 
+</view>

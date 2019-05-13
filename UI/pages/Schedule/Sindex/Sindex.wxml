@@ -1,0 +1,97 @@
+<!--pages/Schedule/Sindex/Sindex.wxml-->
+
+<view  class="table">
+  <view class="tr">
+      <view class="tlle">20 周</view> <!--周次-->
+      <view class="th">周一</view>
+      <view class="th">周二</view>
+      <view class="th ">周三</view>
+      <view class="th">周四</view>
+      <view class="th">周五</view>
+      <view class="th ">周六</view>
+      <view class="th ">周日</view>
+  </view>
+  <!--上课节次-->
+  <view  class="time">
+    <view class="left">1</view>
+    <view class="left">2</view>
+    <view class="left">3</view>
+    <view class="left">4</view>
+    <view class="left">5</view>
+    <view class="left">6</view>
+    <view class="left">7</view>
+    <view class="left">8</view>
+    <view class="left">9</view>
+    <view class="left">10</view>
+  </view>
+
+  <view  class="timetable">
+    <view class="bg-g"><!--课表第一行-->
+     <view class="td">
+       <view class="ifon" >
+        <view class="tdte1">大学英语 @ 二东202</view>
+       </view>
+     </view>
+     <view class="td">
+       <view class="ifon" >
+        <view class="tdte2">概率论与数理统计 @二西202</view>
+       </view>
+    </view>
+    </view>   
+    <view class="bg-g"><!--课表第二行-->
+     <view class="td">
+       <view class="ifon" >
+        <view class="tdte1">大学英语 @ 二东202</view>
+       </view>
+     </view>
+     <view class="td">
+       <view class="ifon" >
+        <view class="tdte2">概率论与数理统计 @二西202</view>
+       </view>
+    </view>
+    </view>   
+<view class="bg-g"><!--课表第三行-->
+     <view class="td">
+       <view class="ifon" >
+        <view class="tdte1">大学英语 @ 二东202</view>
+       </view>
+     </view>
+     <view class="td">
+       <view class="ifon" >
+        <view class="tdte2">概率论与数理统计 @二西202</view>
+       </view>
+    </view>
+    </view>   
+<view class="bg-g"><!--课表第四行-->
+     <view class="td">
+       <view class="ifon" >
+        <view class="tdte1">大学英语 @ 二东202</view>
+       </view>
+     </view>
+     <view class="td">
+       <view class="ifon" >
+        <view class="tdte2">概率论与数理统计 @二西202</view>
+       </view>
+    </view>
+    </view>   
+<view class="bg-g"><!--课表第五行-->
+     <view class="td">
+       <view class="ifon" >
+        <view class="tdte1">大学英语 @ 二东202</view>
+       </view>
+     </view>
+     <view class="td">
+       <view class="ifon" >
+        <view class="tdte2">概率论与数理统计 @二西202</view>
+       </view>
+    </view>
+    </view>   
+
+
+  </view>
+</view>
+
+<!--标题-->
+<cu-custom bgColor="bg-gradual-blue" >
+  <view slot="content">课表呀</view>
+</cu-custom>

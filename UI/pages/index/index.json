@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Schedule": "/pages/Schedule/Sindex/Sindex",
+    "emptyClass": "/pages/emptyClass/Eindex/Eindex",
+    "followCourse": "/pages/followCourse/Findex/Findex"
+  }
+}
